@@ -1,6 +1,7 @@
 package com.example.recyclerviewstudentversion;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
@@ -11,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager layoutManager;
-    List<Player> list;
+    List<player> list;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
